@@ -253,7 +253,7 @@ model = ctStanFit(datalong = df.clean.scaled,
                   ctstanmodel = model,
                   optimize = FALSE,
                   nopriors = FALSE,
-                  iter = 8000,
+                  iter = 2000,
                   chains = 4,
                   cores = 4, 
                   control = list(max_treedepth = 15, adapt_delta = .99))
