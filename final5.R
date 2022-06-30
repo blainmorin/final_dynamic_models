@@ -258,4 +258,4 @@ model = ctStanFit(datalong = df.clean.scaled,
                   cores = 4, 
                   control = list(max_treedepth = 10, adapt_delta = .8))
 
-save(model, file = "final4.Rda")
+save(model, file = "final5.Rda")
